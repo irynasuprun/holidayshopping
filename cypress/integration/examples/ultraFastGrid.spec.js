@@ -1,4 +1,8 @@
 describe("AppTest", () => {
+    before(() => {
+
+        cy.
+    })
 
     it(`ultraFastTest`, function () {
         // Navigate to the url we want to test
@@ -10,6 +14,7 @@ describe("AppTest", () => {
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
             appName: 'Demo App',
+            batchName: 'Holiday Shopping',
             testName: 'Ultrafast grid demo',
         })
 
