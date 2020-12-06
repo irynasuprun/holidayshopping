@@ -1,16 +1,12 @@
 describe("Holiday Shopping", () => {
 
     before(() => {
-    })
-
-    beforeEach(() => {
-
-        // cy.visit('https://demo.applitools.com/tlcHackathonMasterV1.html');
+        cy.visit('https://demo.applitools.com/tlcHackathonMasterV1.html');
         // cy.visit('https://demo.applitools.com/tlcHackathonDev.html');
-        cy.visit('https://demo.applitools.com/tlcHackathonMasterV2.html');
+        // cy.visit('https://demo.applitools.com/tlcHackathonMasterV2.html');
     })
 
-    it(`Test 1`, function () {
+     it(`Test 1`, function () {
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
             appName: 'AppliFashion',
@@ -19,11 +15,11 @@ describe("Holiday Shopping", () => {
             testName: 'Test 1',
             stepName: "main page",
             browser: [
-                { width: 1200, height: 800, name: 'firefox' },
-                { width: 1200, height: 800, name: 'chrome' },
-                { width: 1200, height: 800, name: 'edgechromium' },
-                { width: 1200, height: 800, name: 'safari' },
-                { deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'firefox' },
+                { width: 1200, height: 800, name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'edgechromium' },
+                //{ width: 1200, height: 800, name: 'safari' }
+                //{ deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
             ]
         })
 
@@ -47,11 +43,11 @@ describe("Holiday Shopping", () => {
             testName: 'Test 2',
             stepName: "filter by color",
             browser: [
-                { width: 1200, height: 800, name: 'firefox' },
-                { width: 1200, height: 800, name: 'chrome' },
-                { width: 1200, height: 800, name: 'edgechromium' },
-                { width: 1200, height: 800, name: 'safari' },
-                { deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'firefox' },
+                { width: 1200, height: 800, name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'edgechromium' },
+                //{ width: 1200, height: 800, name: 'safari' }
+                //{ deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
             ]
         })
 
@@ -76,11 +72,11 @@ describe("Holiday Shopping", () => {
             testName: 'Test 3',
             stepName: "product details",
             browser: [
-                { width: 1200, height: 800, name: 'firefox' },
-                { width: 1200, height: 800, name: 'chrome' },
-                { width: 1200, height: 800, name: 'edgechromium' },
-                { width: 1200, height: 800, name: 'safari' },
-                { deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'firefox' },
+                { width: 1200, height: 800, name: 'chrome' }
+                //{ width: 1200, height: 800, name: 'edgechromium' },
+                //{ width: 1200, height: 800, name: 'safari' }
+                //{ deviceName: 'iPhone X', screenOrientation: 'landscape', name: 'chrome' }
             ]
         })
 

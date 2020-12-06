@@ -1,6 +1,6 @@
 module.exports = {
     concurrency: 1,
-    apiKey: 'R98uzAOGpSPsn2f5RVUQ8tI4f106EZk594ulENGi6htKBs110',
+    apiKey: 'PYdAuL3drwSpR9zJWSLjyUEZmQPSuQD7V0PR6dRGXlU110',
     //
     browser: [
         // Add browsers with different viewports
