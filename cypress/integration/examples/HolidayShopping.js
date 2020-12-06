@@ -1,8 +1,8 @@
 describe("Holiday Shopping", () => {
 
     before(() => {
-        cy.visit('https://demo.applitools.com/tlcHackathonMasterV1.html');
-        // cy.visit('https://demo.applitools.com/tlcHackathonDev.html');
+        //cy.visit('https://demo.applitools.com/tlcHackathonMasterV1.html');
+        cy.visit('https://demo.applitools.com/tlcHackathonDev.html');
         // cy.visit('https://demo.applitools.com/tlcHackathonMasterV2.html');
     })
 
